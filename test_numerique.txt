@@ -1,0 +1,236 @@
+Exécution de l'algorithme dynamique pour 2 calculateurs :
+Tableau 1:
+Quelle est le nombre de minute ?
+5
+Entrer la donnée du temps 1 de la calculatrice A
+40
+Entrer la donnée du temps 2 de la calculatrice A
+40
+Entrer la donnée du temps 3 de la calculatrice A
+10
+Entrer la donnée du temps 4 de la calculatrice A
+30
+Entrer la donnée du temps 5 de la calculatrice A
+30
+Entrer la donnée du temps 1 de la calculatrice B
+20
+Entrer la donnée du temps 2 de la calculatrice B
+20
+Entrer la donnée du temps 3 de la calculatrice B
+60
+Entrer la donnée du temps 4 de la calculatrice B
+20
+Entrer la donnée du temps 5 de la calculatrice B
+20
+La solution: A  A  A  A  A
+La matrice M :
+ 40  80  90  120  150
+ 20  40  100  120  140
+Le meilleur score possible est 150
+/////////////////////////////////////////////////////
+Tableau 2:
+Quelle est le nombre de minute ?
+5
+Entrer la donnée du temps 1 de la calculatrice A
+50
+Entrer la donnée du temps 2 de la calculatrice A
+10
+Entrer la donnée du temps 3 de la calculatrice A
+10
+Entrer la donnée du temps 4 de la calculatrice A
+30
+Entrer la donnée du temps 5 de la calculatrice A
+30
+Entrer la donnée du temps 1 de la calculatrice B
+10
+Entrer la donnée du temps 2 de la calculatrice B
+20
+Entrer la donnée du temps 3 de la calculatrice B
+50
+Entrer la donnée du temps 4 de la calculatrice B
+20
+Entrer la donnée du temps 5 de la calculatrice B
+40
+La solution: A  R  B  B  B
+La matrice M :
+ 50  60  70  100  130
+ 10  30  100  120  160
+Le meilleur score possible est 160
+////////////////////////////////////////////////////
+Tableau 3:
+Quelle est le nombre de minute ?
+5
+Entrer la donnée du temps 1 de la calculatrice A
+40
+Entrer la donnée du temps 2 de la calculatrice A
+40
+Entrer la donnée du temps 3 de la calculatrice A
+10
+Entrer la donnée du temps 4 de la calculatrice A
+10
+Entrer la donnée du temps 5 de la calculatrice A
+60
+Entrer la donnée du temps 1 de la calculatrice B
+20
+Entrer la donnée du temps 2 de la calculatrice B
+30
+Entrer la donnée du temps 3 de la calculatrice B
+60
+Entrer la donnée du temps 4 de la calculatrice B
+60
+Entrer la donnée du temps 5 de la calculatrice B
+10
+La solution: B  B  B  B  B
+La matrice M :
+ 40  80  90  100  170
+ 20  50  110  170  180
+Le meilleur score possible est 180
+////////////////////////////////////////////////////
+Tableau 4:
+Quelle est le nombre de minute ?
+10
+Entrer la donnée du temps 1 de la calculatrice A
+10
+Entrer la donnée du temps 2 de la calculatrice A
+10
+Entrer la donnée du temps 3 de la calculatrice A
+10
+Entrer la donnée du temps 4 de la calculatrice A
+60
+Entrer la donnée du temps 5 de la calculatrice A
+10
+Entrer la donnée du temps 6 de la calculatrice A
+10
+Entrer la donnée du temps 7 de la calculatrice A
+10
+Entrer la donnée du temps 8 de la calculatrice A
+50
+Entrer la donnée du temps 9 de la calculatrice A
+40
+Entrer la donnée du temps 10 de la calculatrice A
+10
+Entrer la donnée du temps 1 de la calculatrice B
+20
+Entrer la donnée du temps 2 de la calculatrice B
+40
+Entrer la donnée du temps 3 de la calculatrice B
+20
+Entrer la donnée du temps 4 de la calculatrice B
+10
+Entrer la donnée du temps 5 de la calculatrice B
+10
+Entrer la donnée du temps 6 de la calculatrice B
+60
+Entrer la donnée du temps 7 de la calculatrice B
+20
+Entrer la donnée du temps 8 de la calculatrice B
+10
+Entrer la donnée du temps 9 de la calculatrice B
+10
+Entrer la donnée du temps 10 de la calculatrice B
+60
+La solution: B  B  R  A  R  B  R  A  R  B
+La matrice M :
+ 10  20  30  120  130  140  150  230  270  280
+ 20  60  80  90  100  180  200  210  220  290
+Le meilleur score possible est 290
+////////////////////////////////////////////////////
+Exécution de l'algorithme jesuiscourageux pour 3 calculateurs de notre choix :
+Quelle est le nombre de minute ?
+4
+Combien de calculateur?
+3
+Entrez la donnée pour t=1 du tableau A1
+40
+Entrez la donnée pour t=2 du tableau A1
+1
+Entrez la donnée pour t=3 du tableau A1
+2
+Entrez la donnée pour t=4 du tableau A1
+3
+Entrez la donnée pour t=1 du tableau A2
+4
+Entrez la donnée pour t=2 du tableau A2
+5
+Entrez la donnée pour t=3 du tableau A2
+8
+Entrez la donnée pour t=4 du tableau A2
+7
+Entrez la donnée pour t=1 du tableau A3
+1
+Entrez la donnée pour t=2 du tableau A3
+2
+Entrez la donnée pour t=3 du tableau A3
+5
+Entrez la donnée pour t=4 du tableau A3
+40
+La matrice M :
+ 40  41  43  46
+ 4  9  48  55
+ 1  3  9  80
+Le gain max est 80
+La solution: A1  R  R  A3
+////////////////////////////////////////////////////
+Exécution de l'algorithme jesuiscourageux pour 5 calculateurs de notre choix :
+Quelle est le nombre de minute ?
+5
+Combien de calculateur?
+5
+Entrez la donnée pour t=1 du tableau A1
+4
+Entrez la donnée pour t=2 du tableau A1
+8
+Entrez la donnée pour t=3 du tableau A1
+8
+Entrez la donnée pour t=4 du tableau A1
+5
+Entrez la donnée pour t=5 du tableau A1
+6
+Entrez la donnée pour t=1 du tableau A2
+9
+Entrez la donnée pour t=2 du tableau A2
+7
+Entrez la donnée pour t=3 du tableau A2
+52
+Entrez la donnée pour t=4 du tableau A2
+51
+Entrez la donnée pour t=5 du tableau A2
+8
+Entrez la donnée pour t=1 du tableau A3
+57
+Entrez la donnée pour t=2 du tableau A3
+2
+Entrez la donnée pour t=3 du tableau A3
+6
+Entrez la donnée pour t=4 du tableau A3
+54
+Entrez la donnée pour t=5 du tableau A3
+2
+Entrez la donnée pour t=1 du tableau A4
+5
+Entrez la donnée pour t=2 du tableau A4
+25
+Entrez la donnée pour t=3 du tableau A4
+26
+Entrez la donnée pour t=4 du tableau A4
+5
+Entrez la donnée pour t=5 du tableau A4
+5
+Entrez la donnée pour t=1 du tableau A5
+6
+Entrez la donnée pour t=2 du tableau A5
+68
+Entrez la donnée pour t=3 du tableau A5
+59
+Entrez la donnée pour t=4 du tableau A5
+5
+Entrez la donnée pour t=5 du tableau A5
+7
+La matrice M :
+ 4  12  20  62  115
+ 9  16  109  160  168
+ 57  59  65  119  121
+ 5  30  83  88  138
+ 6  74  133  138  145
+Le gain max est 168
+La solution: A3  R  A2  A2  A2

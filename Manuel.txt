@@ -1,0 +1,27 @@
+Manuel d'utilisation :
+-Vous utiliserez la commande make qui vous fournira 3 éxécutable pour les trois codes différents demandées .
+-Les cases du tableau calculateur doivent sont demandées à l'utilisateur qui les fournira par ligne !
+
+f_recherche:
+./f_recherche en ligne de commande après avoir utiliser make
+1)Le programme demande à l'utilisateur d'entrer le temps t qu'il souhaite.
+2)Ensuite il demandera d'entrer toute les valeurs du tableau A puis du tableau B.
+3)Enfin il laisse à l'utilisateur de choisir les paramètre de f , f(A,2) sera le gain maximum qu'on peut avoir si on utilise le calculateur A à l'instant 2.
+
+algo_dynamique
+./algo_dynamique en ligne de commande après avoir utiliser make
+1)Le programme demande à l'utilisateur d'entrer le temps t qu'il souhaite.
+2)Ensuite il demandera d'entrer toute les valeurs du tableau A puis du tableau B.
+3)Il affichera:
+-la solution sous forme de lettre , R signifie "ne rien faire"
+-la matrice utilisée pour calculer le gain .
+-le gain maximum
+
+jesuiscourageux
+./jesuiscourageux en ligne de commande après avoir utiliser make
+1)Le programme demande à l'utilisateur d'entrer le temps t et le nombre de calculateur qu'il souhaite utiliser .
+2)Ensuite il demandera d'entrer toute les valeurs du tableau A1 puis A2 ... Ac.
+3)Il affichera:
+-la matrice utilisée pour calculer le gain .
+-le gain maximum
+-la solution sous forme de lettre , R signifie "ne rien faire"
